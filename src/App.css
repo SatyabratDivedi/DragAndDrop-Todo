@@ -1,0 +1,29 @@
+::selection {
+  color: skyblue;
+}
+.mainDo {
+  height: 100%;
+  cursor: move;
+  border-width: 10%;
+}
+.main:hover .mainDo {
+  height: 70%;
+}
+.mainDo:active {
+  cursor: grab;
+}
+.blinking {
+  animation: blinkAmime 0.5s linear infinite;
+}
+
+@keyframes blinkAmime {
+  0% {
+    color: white;
+  }
+  50% {
+    color: red;
+  }
+  100% {
+    color: white;
+  }
+}
