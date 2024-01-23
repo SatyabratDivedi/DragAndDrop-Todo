@@ -3,13 +3,13 @@ import ReactDOM from "react-dom/client";
 import App from "./App.jsx";
 import "./index.css";
 import "./App.css";
-import CreatePosts from "./conponant/CreatePosts.jsx";
-import DeletedPosts from "./conponant/DeletedPosts.jsx";
+import CreatePosts from "./component/CreatePosts.jsx";
+import DeletedPosts from "./component/DeletedPosts.jsx";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { Provider } from "react-redux";
 import { store } from "./store/store.js";
-import Card from './conponant/Card';
-import UpdatePost from "./conponant/UpdatePost.jsx";
+import Card from './component/Card';
+import UpdatePost from "./component/UpdatePost.jsx";
 
 
 const router = createBrowserRouter([
